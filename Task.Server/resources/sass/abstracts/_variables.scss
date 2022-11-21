@@ -1,0 +1,64 @@
+/* font */
+$fontFamily: 'Old Standard TT', 'sans-serif';
+
+$fontSizeXs: 9px;
+$fontSizeS: 11px;
+$fontSize: 13px;
+$fontSizeL: 15px;
+$fontSizeXl: 16px;
+$fontSizeXxl: 18px;
+$fontSizeH3: 22px;
+$fontSizeH2: 28px;
+$fontSizeH1: 53px;
+
+$fontWeightRegular: 400;
+$fontWeightSemiBold: 600;
+$fontWeightBold: 700;
+$fontWeightBlack: 800;
+
+/* color */
+$backgroundPrimary: #F6F6F6;
+$backgroundSecondary: #FFFFFF;
+$backgroundTertiary: #E1E1E1;
+$backgroundQuaternary: #E9E9E9;
+$backgroundQuinary: #F2F2F2;
+$backgroundAlt: #000000;
+
+$colorPrimary: #000000;
+$colorSecondary: #B9B9B9;
+$colorTertiary: #5a5a5a;
+$colorQuaternary: #808080;
+$colorQuinary: #D6D6D6;
+$colorAlt: #FFFFFF;
+$colorSuccess: #3CA202;
+$colorSuccessAlt: #098A00;
+$colorInfo: #55CDFC;
+$colorWarning: #FF5A00;
+$colorWarningLight: #ffa87b;
+$colorWarningLighAlt: #FFBA3B;
+$colorDanger: #FF0000;
+$colorFlag: #e21a22;
+
+$colorFacebook: #1877F2;
+$colorPaypal: #233980;
+
+/* spacing */
+$spacingMobile: 8px;
+$spacingDesktop: 10px;
+$sidePaddingTablet: 10px;
+$sidePaddingDesktop: 30px;
+$sidePaddingDesktopLarge: 60px;
+
+/* breakpoint */
+$breakpointMobile: 320px;
+$breakpointTablet: 768px;
+$breakpointDesktop: 992px;
+$breakpointDesktopLarge: 1200px;
+$breakpointDesktopExtraLarge: 1440px;
+$breakpointDesktopHD: 1921px;
+
+/* height */
+$navigationHeightDesktop: 84px;
+$productImageMaxHeight: 460px;
+$listingFiltersWidth: 300px;
+$listingFiltersMaxHeight: 255px;

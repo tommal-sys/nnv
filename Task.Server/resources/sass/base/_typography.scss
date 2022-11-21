@@ -1,0 +1,43 @@
+html, body {
+    width: 100%;
+}
+
+body {
+    box-sizing: border-box;
+
+    *,
+    *::before,
+    *::after {
+        box-sizing: inherit;
+    }
+}
+
+.no-overflow {
+    position: relative;
+    overflow: hidden;
+    -ms-touch-action: none;
+    touch-action: none;
+}
+
+iframe {
+    max-width: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+img:not([src]) {
+    visibility: hidden;
+}
+
+.img-small {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+form,
+textarea {
+    font-family: $fontFamily;
+}

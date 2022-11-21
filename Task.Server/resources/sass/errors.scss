@@ -1,0 +1,29 @@
+/* abstracts */
+@import
+    'abstracts/variables';
+
+/* vendors */
+@import
+    'vendors/fontawesome/fontawesome',
+    'vendors/fontawesome/solid',
+    'vendors/fontawesome/regular';
+
+/* base */
+@import
+    'base/reset',
+    'base/typography';
+
+
+html,
+body,
+.error-page {
+    height: 100%;
+    width: 100%;
+}
+
+.error-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
