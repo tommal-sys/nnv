@@ -1,6 +1,7 @@
 @extends('layout.master')
 
 @section('content')
+
 <main class="text-center">
     <div class="card m-2">
         <div class="card-body">
